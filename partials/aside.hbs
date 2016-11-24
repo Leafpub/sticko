@@ -1,9 +1,11 @@
 <section class="sidebar-data-holder">
     <div class="spinner" role="spinner"><div class="spinner-icon"></div></div>
+    {{#is @settings.maintenance 'off'}}
     <nav class="main-nav">
         <button class="nav-control"><i class="icon-hamburguer"></i></button>
         {{> nav}}
     </nav>
+    {{/is}}
     <div class="logo"><a href="/" title="Back to home">{{@settings.title}}</a></div>
 
     {{!-- Blog index, search, error, pages --}}
