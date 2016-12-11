@@ -1,9 +1,12 @@
 {
     "name": "Sticko",
     "description": "A fork of the Sticko Ghost theme by @damianmuti.",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "requires": "1.0.0",
     "author": "Cory LaViska",
     "license": "CCA 4.0",
-    "url": "https://github.com/leafpub/sticko"
+    "url": "https://github.com/leafpub/sticko",
+    "error_templates": {
+        "503":"partials/maintenance.hbs"
+    }
 }
